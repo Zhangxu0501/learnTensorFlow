@@ -40,7 +40,7 @@ for step in range(0,200):
     sess.run(train)
     if step%20==0:
         print step
-        print sess.run(Weight)
+        print sess.run(Weight)                                                                                                                        
         print sess.run(bais)
         print "=============================="
 
